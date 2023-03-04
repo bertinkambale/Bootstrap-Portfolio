@@ -307,15 +307,15 @@
             background-repeat: no-repeat;
           "
         >
-          <div style="background-image: url('./images/footer-shapes.svg')">
-            <p class="text-center">Contact me</p>
-            <p class="text-center">
+          <div class="pt-5" style="background-image: url('./images/footer-shapes.svg')">
+            <p class="text-center text-white fs-4 fw-bolder">Contact me</p>
+            <p class="text-center text-white">
               If you have an application you are interested in developing,<br />
               a feature that you need built or a project that needs coding.<br />
               I’d love to help with it
             </p>
             <form
-              class="d-sm-flex flex-column col-md-6 mx-auto"
+              class="d-sm-flex flex-column align-items-center col-md-6 mx-auto"
               action="https://formspree.io/f/xlekbwnv"
               method="POST"
             >
@@ -350,7 +350,11 @@
                 placeholder="Write your message here"
                 type="text"
               ></textarea>
-              <button class="btn btn-outline-primary m-4" type="submit">
+              <button
+                class="btn btn-outline-primary m-4 bg-white"
+                type="submit"
+                style="width: fit-content"
+              >
                 Get in touch
               </button>
             </form>
